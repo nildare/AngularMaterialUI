@@ -1,0 +1,50 @@
+{
+  "productList": [
+    {
+      "productName": "Sam",
+      "category": "Vegetables",
+      "freshness": "Second Hand",
+      "price": 500,
+      "comment": "good",
+      "date": "2022-12-14T18:30:00.000Z",
+      "id": 1
+    },
+    {
+      "productName": "XR",
+      "category": "Electronic",
+      "freshness": "Second Hand",
+      "price": 25000,
+      "comment": "Red",
+      "date": "2022-12-24T18:30:00.000Z",
+      "id": 2
+    },
+    {
+      "productName": "Iphone 7",
+      "category": "Electronic",
+      "freshness": "Second Hand",
+      "price": 7000,
+      "comment": "gold",
+      "date": "2022-12-06T18:30:00.000Z",
+      "id": 3
+    },
+    {
+      "productName": "Iphone 8",
+      "category": "Electronic",
+      "freshness": "Brand New",
+      "price": 50000,
+      "comment": "Seal Pack",
+      "date": "2022-12-21T18:30:00.000Z",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
