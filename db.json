@@ -35,6 +35,33 @@
       "comment": "Seal Pack",
       "date": "2022-12-21T18:30:00.000Z",
       "id": 4
+    },
+    {
+      "productName": "XR",
+      "category": "Vegetables",
+      "freshness": "Second Hand",
+      "price": 25000,
+      "comment": "Red",
+      "date": "2022-12-24T18:30:00.000Z",
+      "id": 5
+    },
+    {
+      "productName": "Sam",
+      "category": "Electronic",
+      "freshness": "Second Hand",
+      "price": 500,
+      "comment": "good",
+      "date": "2022-12-14T18:30:00.000Z",
+      "id": 6
+    },
+    {
+      "productName": "XR",
+      "category": "Electronic",
+      "freshness": "Second Hand",
+      "price": 25000,
+      "comment": "Red",
+      "date": "2022-12-24T18:30:00.000Z",
+      "id": 7
     }
   ],
   "comments": [
