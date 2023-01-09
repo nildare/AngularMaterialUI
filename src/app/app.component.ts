@@ -57,7 +57,18 @@ editProduct(row : any){
     data:row
   }).afterClosed().subscribe(val=>{
     if(val==='update'){
-      this.getAllProducts
+      this.getAllProducts();
+    }
+  })
+}
+deleteProducts(id:number){
+  this.api.deleteProduct(id)
+  .subscribe({
+    next:(res)=>{
+      alert("Product Deleted Succesfully!")
+    },
+    error:()=>{
+      alert("Error while deleting")
     }
   })
 }

@@ -68,7 +68,7 @@ updateProduct(){
 this.api.putProduct(this.productForm.value,this.editData.id)
 .subscribe({
   next:(res)=>{
-    alert("Product Updated Succesfully!")
+    alert("Product Updated Succesfully!");
     this.productForm.reset();
     this.dialogRef.close('update');
   },
